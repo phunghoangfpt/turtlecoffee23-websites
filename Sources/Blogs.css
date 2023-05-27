@@ -1,0 +1,76 @@
+
+
+.Banner-BlogPageTitle{
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+}
+
+.Banner-BlogPageContent{
+    font-size: 36px;
+    color: white;
+    font-style: italic;
+}
+
+.Blogs_container_GrandParent{
+    display: grid;
+    grid-template-columns: 400px 400px 400px 400px;
+    align-items: start;
+    justify-content: center;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+.Blogs_container_Parent{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 400px;
+    height: 450px;
+    background-color: #E3E7E8;
+
+}
+
+.Blogs_Container_Parent_img img{
+    width: 400px;
+}
+
+.Blogs_Container_Parent_text{
+    margin-left: 10px;
+}
+
+.Blogs_Container_Parent_text .BlogDate{
+    color: gray;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.Blogs_Container_Parent_text .BlogTitle{
+    color: black;
+    font-size: 24px;
+    margin-top: 8px;
+    line-height: 32px;
+    width: 400px;
+}
+
+.Blog-page-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Blog-page-nav a{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #06ba63;
+}

@@ -1,0 +1,134 @@
+
+
+.form{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    box-shadow: rgba(31,38,135,0.37); 
+}
+
+.form h3{
+    font-size: 22px;
+    color: #06ba63;
+    margin-bottom: 10px;
+}
+
+.form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    width: 280px;
+    border: 1px solid #06ba63;
+    outline: none;
+}
+
+.form input::placeholder{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.form .btn{
+    margin-top: 20px;
+}
+
+a.home-button-1{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: #06ba63;
+    color: #fff;
+    transition: all 300ms ease;
+}
+
+.submit-button{
+    background: #06ba63; 
+    color: white; 
+    font-family: "Josefin Sans";
+    font-size: 18px; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.ContactUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding: 3vw 8vw 3vw 8vw;
+    background-image: url(img/ContactUs.png);
+    background-position: center;
+    padding-top: 144px;
+}
+
+.ContactUs_Title-targeted{
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+
+.ContactUs_infoContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.ContactUs_infoContainer_icons{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    color: white;
+}
+
+.ContactUs_infoContainer_texts{
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 12px;
+    color: white;
+}
+
+.SocialPlatform{
+    padding: 144px 8vw 3vw 8vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 6rem;
+}
+
+.SocialPlatform img{
+    width: 500px;
+}
+
+.SocialPlatform-Content .Socialp1{
+    font-size: 72px;
+    width: 500px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+
+.SocialPlatform-Content .Socialp2{
+    font-size: 32px;
+    color: gray;
+    width: auto;
+}
+
+
+
